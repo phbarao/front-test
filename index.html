@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Front-end Test</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles/main.css">
+</head>
+<body id="page-landing">
+  <div id="container">
+    <header class="page-header">
+      <img src="/public/images/logo.svg" alt="Logo">
+    </header>
+
+    <div class="banner">
+      <img src="/public/images/banner.jpg" alt="Banner">
+      <div class="banner-text">
+        <p>"Obtive crédito para capital de giro. O processo foi bem sucedido e tudo que foi abordado, foi cumprido."</p>
+        <strong>Camila Bragança,</strong>
+        <small>Sideral Tecnologia</small>
+      </div>
+    </div>
+
+    <main>
+      <form action="" id="create-register">
+        <legend>
+          <strong>Criar meu cadastro</strong>
+          <p>Para acompanhar sua contratação de <br> crédito você utilizará seu e-mail e CPF.</p>
+        </legend>
+        <div class="input-block">
+          <label for="email">E-mail</label>
+          <input name="email" type="email" id="email" placeholder="ana.maria@email.com" required>
+        </div>
+
+        <div class="input-block">
+          <label for="cpf">CPF</label>
+          <input name="cpf" id="cpf" type="number" placeholder="000.000.000-00" required>
+        </div>
+
+        <div class="input-block">
+          <label for="birth-date">Data de nascimento</label>
+          <input name="birth-date" id="birth-date" type="date" placeholder="DD/MM/AAAA" required>
+        </div>
+
+        <div class="input-block">
+          <label for="password">Senha</label>
+          <input name="password" id="password" type="password" placeholder="Cadastre uma senha" required>
+        </div>
+
+        <div class="policies-block">
+          <input name="policies" id="policies" type="checkbox">
+          <label for="policies">
+            <p>Li e estou de acordo com a <a href="/">Política de Privacidade</a> e a <a href="/">Política de Uso de Informações</a>.</p>
+          </label>
+        </div>
+
+        <button type="submit" form="create-register"><img src="/public/images/icons/padlock.svg"></img>Cadastrar</button>
+      </form>
+
+      <footer>
+        <p>
+          Já fiz meu cadastro. 
+          <a href="/">Entrar agora.</a>
+        </p>
+      </footer>
+    </main>
+
+
+  </div>
+</body>
+</html>
