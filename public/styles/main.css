@@ -1,0 +1,78 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
+.hero-image {
+  width: 45vw;
+  height: 100vh;
+  position: fixed;
+  background: url(/public/images/banner.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  text-align: right;
+  color: white;
+  padding: 3rem;
+  transition: 0.5s;
+  z-index: 100;
+}
+
+.hero-image p {
+  width: 70%;
+  font-size: 1.8rem;
+  line-height: 3rem;
+  margin-bottom: 2rem;
+}
+
+.hero-image strong {
+  font-size: 1.6rem;
+}
+
+.hero-image small {
+  font-size: 1.2rem;
+  margin-top: 0.6rem;
+}
+
+/* RIGHT COLUMN */
+.content {
+  width: 55vw;
+  background: var(--color-background);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  right: 0;
+}
+
+.page-header {
+  height: 5.6rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.logo {
+  margin-right: 3.5rem;
+}
+
+.content footer {
+  width: 32rem;
+  font-size: 1.4rem;
+  text-align: center;
+  color: var(--color-warm-grey);
+  border-top: 1px solid var(--color-border);
+  margin-top: 8.8rem;
+  padding: 1.6rem;
+  transition: 0.2s;
+}
+
+.content footer a:hover {
+  color: var(--color-light-grey);
+  transition: 0.2s;
+}

@@ -1,0 +1,43 @@
+@media (max-width: 780px) {
+  .hero-image {
+    width: 0;
+    visibility: hidden;
+    position: absolute;
+    left: -70px;
+    transition: 0.4s;
+  }
+
+  .content {
+    width: 100vw;
+  }
+
+  .page-header {
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  #register-form legend {
+    margin-top: 5rem;
+    text-align: left;
+  }
+
+  #register-form legend h2 {
+    margin-top: 5rem;
+    text-align: left;
+  }
+
+  #register-form legend p {
+    text-align: left;
+  }
+
+  #register-form .input-group {
+    flex-direction: column;
+  }
+
+  #register-form .input-group .input-block {
+    width: 100%;
+  }
+
+  #register-form .input-group .input-block + .input-block {
+    margin-left: 0;
+  }
+}
