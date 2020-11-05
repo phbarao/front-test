@@ -16,7 +16,6 @@
   }
 
   #register-form legend {
-    margin-top: 5rem;
     text-align: left;
   }
 
@@ -31,6 +30,12 @@
 
   #register-form .input-group {
     flex-direction: column;
+    gap: 0;
+  }
+
+  #register-form .input-group #cpf,
+  #register-form .input-group #birth-date {
+    width: 100%;
   }
 
   #register-form .input-group .input-block {
