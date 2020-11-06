@@ -11,7 +11,8 @@
 }
 
 .label-container p {
-  font-size: 1.1rem;
+  width: 80%;
+  font-size: 1.2rem;
   color: var(--color-warm-grey);
   padding: 1rem 0;
 }
@@ -61,7 +62,7 @@
 /* Style the checkmark/indicator */
 .label-container .checkmark:after {
   left: 7px;
-  top: 3px;
+  top: 2px;
   width: 5px;
   height: 10px;
   border: solid white;

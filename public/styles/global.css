@@ -42,3 +42,8 @@ a {
   color: var(--color-links-and-buttons);
   transition: 0.2s;
 }
+
+.content a:hover {
+  color: var(--color-light-grey);
+  transition: 0.2s;
+}

@@ -71,8 +71,3 @@
   padding: 1.6rem;
   transition: 0.2s;
 }
-
-.content footer a:hover {
-  color: var(--color-light-grey);
-  transition: 0.2s;
-}
